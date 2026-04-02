@@ -1,0 +1,61 @@
+{
+  "categories": [
+    { "id": "goethe-a1", "name": "Goethe A1", "icon": "G" },
+    { "id": "goethe-a2", "name": "Goethe A2", "icon": "G" },
+    { "id": "kelime", "name": "Genel Kelime", "icon": "K" },
+    { "id": "gramer", "name": "Gramer", "icon": "Gr" },
+    { "id": "gunluk", "name": "Günlük Konuşma", "icon": "Gn" }
+  ],
+  "decks": [
+    {
+      "id": "goethe-a1-temel",
+      "name": "Goethe A1 - Temel Kelimeler",
+      "description": "Goethe A1 sınavı için en sık kullanılan 50 temel kelime. Selamlaşma, sayılar, renkler ve günlük yaşam.",
+      "category": "goethe-a1",
+      "cardCount": 50,
+      "author": "BesserLernen",
+      "file": "decks/goethe-a1-temel.json",
+      "tags": ["A1", "temel", "başlangıç"]
+    },
+    {
+      "id": "goethe-a1-yiyecek",
+      "name": "Goethe A1 - Yiyecek & İçecek",
+      "description": "Restoran, market ve mutfakta kullanılan temel yiyecek-içecek kelimeleri.",
+      "category": "goethe-a1",
+      "cardCount": 40,
+      "author": "BesserLernen",
+      "file": "decks/goethe-a1-yiyecek.json",
+      "tags": ["A1", "yiyecek", "restoran"]
+    },
+    {
+      "id": "goethe-a2-fiiller",
+      "name": "Goethe A2 - Önemli Fiiller",
+      "description": "A2 seviyesinde sıkça karşılaşılan fiiller ve örnek cümleleri.",
+      "category": "goethe-a2",
+      "cardCount": 40,
+      "author": "BesserLernen",
+      "file": "decks/goethe-a2-fiiller.json",
+      "tags": ["A2", "fiiller", "gramer"]
+    },
+    {
+      "id": "gunluk-konusma",
+      "name": "Günlük Konuşma Kalıpları",
+      "description": "Almanya'da günlük hayatta en çok duyacağınız ifadeler ve kalıplar.",
+      "category": "gunluk",
+      "cardCount": 30,
+      "author": "BesserLernen",
+      "file": "decks/gunluk-konusma.json",
+      "tags": ["konuşma", "günlük", "pratik"]
+    },
+    {
+      "id": "artikel-ozel",
+      "name": "Artikel Kuralları & İstisnalar",
+      "description": "Der/die/das kuralları, soneklere göre artikel belirleme ve sık karıştırılan istisnalar.",
+      "category": "gramer",
+      "cardCount": 35,
+      "author": "BesserLernen",
+      "file": "decks/artikel-ozel.json",
+      "tags": ["artikel", "gramer", "kurallar"]
+    }
+  ]
+}
